@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>palindrome</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Palindrome Checker</h1>
+        <p>A palindrome is a word, phrase, number, or sequence that reads the same backward as forward (ignoring spaces, punctuation, and capitalization).</p>
+        <div class="input-section">
+            <input id="input" type="text" placeholder="Enter a word or phrase...">
+            <!-- <span id="message"></span> -->
+            <button id="button">check</button>
+        </div> 
+        <div class="hidden" id="result-container">
+            <h2 id="result-text"></h2>
+            <div id="emoji"></div>
+        </div>  
+        <div id="steps" class="hidden">
+            <h3>Step-by-step comparison</h3>
+            <ul id="steps-list"></ul>
+        </div>
+        <div id="examples">
+            <h3>Examples of palindromes:</h3>
+        <ul>
+            <li>racecar</li>
+            <li>madam</li>
+            <li>A man, a plan, a canal: Panama</li>
+            <li>Taco cat</li>
+        </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
